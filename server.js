@@ -6,6 +6,7 @@ var exphbs = require("express-handlebars");
 var handlebars = require('handlebars');
 var fs = require('fs');
 var path = require('path');
+var mysql = require("mysql");
 
 // bring in the models
 var db = require("./models");
